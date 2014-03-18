@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="califa" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[BUGS/FR:
+
+* Debería guardar la ubicación del último archivo del que se importó/manejó (revisar la interfaz del diálogo del archivo)
+* Pasar de campo con el tabulador.
+* Importar debería dejar elegir entre txt's y csv's
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/califa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/califa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`pkg-config gtkmm-2.4 --cflags`" />
+			<Add directory="../MyLib/" />
+			<Add directory="src/" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config gtkmm-2.4 --libs`" />
+		</Linker>
+		<Unit filename="../MyLib/fileman.cpp" />
+		<Unit filename="../MyLib/fileman.h" />
+		<Unit filename="../MyLib/gtk_uintf.cpp" />
+		<Unit filename="../MyLib/gtk_uintf.h" />
+		<Unit filename="../MyLib/gtk_visor.cpp" />
+		<Unit filename="../MyLib/gtk_visor.h" />
+		<Unit filename="../MyLib/lex.cpp" />
+		<Unit filename="../MyLib/lex.h" />
+		<Unit filename="../MyLib/nombreman.cpp" />
+		<Unit filename="../MyLib/nombreman.h" />
+		<Unit filename="../MyLib/observador.cpp" />
+		<Unit filename="../MyLib/observador.h" />
+		<Unit filename="../MyLib/persistente.cpp" />
+		<Unit filename="../MyLib/persistente.h" />
+		<Unit filename="../MyLib/stringman.cpp" />
+		<Unit filename="../MyLib/stringman.h" />
+		<Unit filename="src/califa.cpp" />
+		<Unit filename="src/califaicon.cpp" />
+		<Unit filename="src/califaicon.h" />
+		<Unit filename="src/campo.cpp" />
+		<Unit filename="src/campo.h" />
+		<Unit filename="src/campodni.cpp" />
+		<Unit filename="src/campodni.h" />
+		<Unit filename="src/campoinfo.cpp" />
+		<Unit filename="src/campoinfo.h" />
+		<Unit filename="src/camponota.cpp" />
+		<Unit filename="src/camponota.h" />
+		<Unit filename="src/camponotaconceptual.cpp" />
+		<Unit filename="src/camponotaconceptual.h" />
+		<Unit filename="src/camponotaextra.cpp" />
+		<Unit filename="src/camponotaextra.h" />
+		<Unit filename="src/camponotafinal.cpp" />
+		<Unit filename="src/camponotafinal.h" />
+		<Unit filename="src/campoverif.cpp" />
+		<Unit filename="src/campoverif.h" />
+		<Unit filename="src/config.h" />
+		<Unit filename="src/dlgconvertir.cpp" />
+		<Unit filename="src/dlgconvertir.h" />
+		<Unit filename="src/dlgconvertir_glade.cpp" />
+		<Unit filename="src/dlgconvertir_glade.h" />
+		<Unit filename="src/dlgpropiedades.cpp" />
+		<Unit filename="src/dlgpropiedades.h" />
+		<Unit filename="src/dlgpropiedades_glade.cpp" />
+		<Unit filename="src/dlgpropiedades_glade.h" />
+		<Unit filename="src/documentocalifa.cpp" />
+		<Unit filename="src/documentocalifa.h" />
+		<Unit filename="src/estudiable.h" />
+		<Unit filename="src/excep.h" />
+		<Unit filename="src/importar.cpp" />
+		<Unit filename="src/importar.h" />
+		<Unit filename="src/nota.cpp" />
+		<Unit filename="src/nota.h" />
+		<Unit filename="src/opcionescsv.cpp" />
+		<Unit filename="src/opcionescsv.h" />
+		<Unit filename="src/reservadas.cpp" />
+		<Unit filename="src/reservadas.h" />
+		<Unit filename="src/ui.h" />
+		<Unit filename="src/ventanappal.cpp" />
+		<Unit filename="src/ventanappal.h" />
+		<Unit filename="src/ventanappal_glade.cpp" />
+		<Unit filename="src/ventanappal_glade.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
