@@ -1,0 +1,25 @@
+id_icon ICON "pixmaps\\califa.ico"
+id_icon_small ICON_SMALL "pixmaps\\califa_small.ico"
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Baltasarq"
+      VALUE "FileDescription", "Califa"
+      VALUE "FileVersion", "0.3"
+      VALUE "InternalName", "Califa"
+      VALUE "LegalCopyright", "(c) Baltasarq 2009/10"
+      VALUE "OriginalFilename", "califa.exe"
+      VALUE "ProductName", "Califa"
+      VALUE "ProductVersion", "0.3"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END

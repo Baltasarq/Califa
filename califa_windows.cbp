@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="califa_windows" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\califa_windows" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\califa_windows" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mms-bitfields" />
+			<Add option="-user32" />
+			<Add directory="C:\Program Files\gtkmm\include" />
+			<Add directory="C:\Program Files\gtkmm\include\gtk-2.0" />
+			<Add directory="C:\Program Files\gtkmm\include\cairo" />
+			<Add directory="C:\Program Files\gtkmm\include\gdk" />
+			<Add directory="C:\Program Files\gtkmm\include\glib-2.0" />
+			<Add directory="C:\Program Files\gtkmm\lib\glib-2.0\include" />
+			<Add directory="C:\Program Files\gtkmm\include\pango-1.0" />
+			<Add directory="C:\Program Files\gtkmm\lib\gtk-2.0\include" />
+			<Add directory="C:\Program Files\gtkmm\include\atk-1.0" />
+			<Add directory="C:\Program Files\gtkmm\include\gtkmm-2.4" />
+			<Add directory="C:\Program Files\gtkmm\include\cairomm-1.0" />
+			<Add directory="C:\Program Files\gtkmm\include\gdkmm-2.4" />
+			<Add directory="..\MyLib" />
+			<Add directory="C:\Program Files\gtkmm\include\glibmm-2.4" />
+			<Add directory="C:\Program Files\gtkmm\include\pangomm-1.4" />
+			<Add directory="C:\Program Files\gtkmm\lib\glibmm-2.4\include" />
+			<Add directory="C:\Program Files\gtkmm\lib\gtkmm-2.4\include" />
+			<Add directory="C:\Program Files\gtkmm\include\atkmm-1.6" />
+			<Add directory="C:\Program Files\gtkmm\include\giomm-2.4" />
+			<Add directory="C:\Program Files\gtkmm\include\sigc++-2.0" />
+			<Add directory="C:\Program Files\gtkmm\lib\gdkmm-2.4\include" />
+			<Add directory="C:\Program Files\gtkmm\lib\giomm-2.4\include" />
+			<Add directory="C:\Program Files\gtkmm\lib\sigc++-2.0\include" />
+			<Add directory="C:\Program Files\gtkmm\include\freetype2" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,-luuid" />
+			<Add option="-lintl" />
+			<Add option="-liconv" />
+			<Add library="gtk-win32-2.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add library="gtkmm-2.4" />
+			<Add library="gdkmm-2.4" />
+			<Add library="glibmm-2.4" />
+			<Add library="pangomm-1.4" />
+			<Add library="libsigc-2.0" />
+			<Add library="atkmm-1.6" />
+			<Add library="atk-1.0" />
+			<Add directory="C:\Program Files\gtkmm\lib" />
+		</Linker>
+		<Unit filename="src\califa.cpp" />
+		<Unit filename="src\califaicon.cpp" />
+		<Unit filename="src\califaicon.h" />
+		<Unit filename="src\campo.cpp" />
+		<Unit filename="src\campo.h" />
+		<Unit filename="src\campodni.cpp" />
+		<Unit filename="src\campodni.h" />
+		<Unit filename="src\campoinfo.cpp" />
+		<Unit filename="src\campoinfo.h" />
+		<Unit filename="src\camponota.cpp" />
+		<Unit filename="src\camponota.h" />
+		<Unit filename="src\camponotaconceptual.cpp" />
+		<Unit filename="src\camponotaconceptual.h" />
+		<Unit filename="src\camponotaextra.cpp" />
+		<Unit filename="src\camponotaextra.h" />
+		<Unit filename="src\camponotafinal.cpp" />
+		<Unit filename="src\camponotafinal.h" />
+		<Unit filename="src\campoverif.cpp" />
+		<Unit filename="src\campoverif.h" />
+		<Unit filename="src\config.h" />
+		<Unit filename="src\dlgconvertir.cpp" />
+		<Unit filename="src\dlgconvertir.h" />
+		<Unit filename="src\dlgconvertir_glade.cpp" />
+		<Unit filename="src\dlgconvertir_glade.h" />
+		<Unit filename="src\dlgpropiedades.cpp" />
+		<Unit filename="src\dlgpropiedades.h" />
+		<Unit filename="src\dlgpropiedades_glade.cpp" />
+		<Unit filename="src\dlgpropiedades_glade.h" />
+		<Unit filename="src\documentocalifa.cpp" />
+		<Unit filename="src\documentocalifa.h" />
+		<Unit filename="src\estudiable.h" />
+		<Unit filename="src\excep.h" />
+		<Unit filename="src\importar.cpp" />
+		<Unit filename="src\importar.h" />
+		<Unit filename="src\nota.cpp" />
+		<Unit filename="src\nota.h" />
+		<Unit filename="src\opcionescsv.cpp" />
+		<Unit filename="src\opcionescsv.h" />
+		<Unit filename="src\reservadas.cpp" />
+		<Unit filename="src\reservadas.h" />
+		<Unit filename="src\resource.rc">
+			<Option compilerVar="WINDRES" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src\ui.h" />
+		<Unit filename="src\ventanappal.cpp" />
+		<Unit filename="src\ventanappal.h" />
+		<Unit filename="src\ventanappal_glade.cpp" />
+		<Unit filename="src\ventanappal_glade.h" />
+		<Unit filename="..\MyLib\fileman.cpp" />
+		<Unit filename="..\MyLib\fileman.h" />
+		<Unit filename="..\MyLib\gtk_uintf.cpp" />
+		<Unit filename="..\MyLib\gtk_uintf.h" />
+		<Unit filename="..\MyLib\gtk_visor.cpp" />
+		<Unit filename="..\MyLib\gtk_visor.h" />
+		<Unit filename="..\MyLib\lex.cpp" />
+		<Unit filename="..\MyLib\lex.h" />
+		<Unit filename="..\MyLib\nombreman.cpp" />
+		<Unit filename="..\MyLib\nombreman.h" />
+		<Unit filename="..\MyLib\observador.cpp" />
+		<Unit filename="..\MyLib\observador.h" />
+		<Unit filename="..\MyLib\persistente.cpp" />
+		<Unit filename="..\MyLib\persistente.h" />
+		<Unit filename="..\MyLib\stringman.cpp" />
+		<Unit filename="..\MyLib\stringman.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,39 @@
+opcionescsv.o opcionescsv.o: opcionescsv.cpp opcionescsv.h \
+  /usr/include/c++/4.2/cstring \
+  /usr/include/c++/4.2/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.2/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h \
+  /usr/include/c++/4.2/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.2/cstddef \
+  /usr/lib/gcc/i486-linux-gnu/4.2.4/include/stddef.h \
+  /usr/include/string.h /usr/include/xlocale.h
+
+opcionescsv.h:
+
+/usr/include/c++/4.2/cstring:
+
+/usr/include/c++/4.2/i486-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/4.2/i486-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/c++/4.2/i486-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/c++/4.2/cstddef:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.4/include/stddef.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
