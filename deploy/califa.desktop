@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Califa
+Comment=Manage qualifications
+Exec=/home/baltasarq/Dropbox/prys/old_Califa/bin/Release/califa
+Icon=/home/baltasarq/Dropbox/prys/old_Califa/pixmaps/califa_icono.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Office
