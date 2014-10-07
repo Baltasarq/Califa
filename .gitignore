@@ -1,4 +1,5 @@
 bin/ 
 obj/ 
+deploy/
 *.layout 
-*.depend 
+*.depend
