@@ -1,6 +1,0 @@
-Licencia
---------
-
-Este software puede usarse libremente.
-Se distribuye con la esperanza de que sea útil, pero no se provee de ninguna garantía frente a pérdidas de datos, ni se provee, ya en general, de garantía alguna sobre el producto.
-La simple utilización de este software implica la aceptación de estas condiciones.
